@@ -2,7 +2,7 @@
 
 ## Purpose
 You will build a **voice assistant for an airline company** using **Phonely**. 
-Then pitch the demo as if you're doing a live demo to a potential customer.
+Then you will pitch the demo as if you're doing a live demo to a potential customer.
 
 ---
 
@@ -10,8 +10,6 @@ Then pitch the demo as if you're doing a live demo to a potential customer.
 A customer calls an airline support line. The assistant should be able to help with:
 
 - **Book a flight**
-- **Reschedule an existing booking**
-- **Check the time/status of a flight**
 
 ---
 
@@ -53,28 +51,10 @@ Send a confirmation email containing:
 
 ---
 
-## Rescheduling & Flight Time Checks
-
-### Checking flight time
-Callers may ask for:
-- the departure time of a specific flight
-- the time associated with their existing booking
-- “What time is my flight?”
-
-The assistant should handle this conversationally and retrieve the relevant flight/booking details.
-
-### Rescheduling
-Callers may want to change:
-- flight time/date (or select a different option)
-
-The assistant should:
-- identify the booking (e.g., via confirmation number + name)
-- update the stored booking
-- re-confirm the updated itinerary details
-- re-send the confirmation message
-
----
-
 ## Data & Storage
 - Treat the airline “CRM” as a **CSV file**.
-- It should store bookings and be readable/updatable during the session.
+- It should store new bookings.
+- see **bookings.csv** for flight bookings
+- see **flights.csv** for available flights
+
+Use whatever IDE you want, as much AI as you want. This is meant to see how you think and communicate
